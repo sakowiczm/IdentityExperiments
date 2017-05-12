@@ -95,7 +95,23 @@ namespace TokenServer
                         "service1-api.get-datetime"
                     },
 
-                }
+                },
+
+                new Client
+                {
+                    ClientId = "console-client",
+                    ClientName = "Console Client",
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256()),
+                    },
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedScopes = new List<string>
+                    {
+                        "service1-api.get-datetime"
+                    },
+
+                },
             };
         }
     }

@@ -60,7 +60,7 @@ namespace MVCClient.Controllers
             return View();
         }
 
-        //[Authorize]
+        [Authorize]
         public async Task<IActionResult> GetDateTime()
         {
             var token = await HttpContext.Authentication.GetTokenAsync("access_token");

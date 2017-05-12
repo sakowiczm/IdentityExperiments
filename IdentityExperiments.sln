@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenServer", "TokenServer\TokenServer.csproj", "{CD227530-49D7-40EE-B93E-AD3B7EAF87A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCClient", "MVCClient\MVCClient.csproj", "{A0945687-F668-48E9-BA0A-3045A0244637}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service01", "Service01\Service01.csproj", "{2D1CF9A4-ADB9-47C5-A0A2-13A436990ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service02", "Service02\Service02.csproj", "{29917323-1F2B-46F4-9B38-AD3E12F3CEEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2D1CF9A4-ADB9-47C5-A0A2-13A436990ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1CF9A4-ADB9-47C5-A0A2-13A436990ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1CF9A4-ADB9-47C5-A0A2-13A436990ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29917323-1F2B-46F4-9B38-AD3E12F3CEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29917323-1F2B-46F4-9B38-AD3E12F3CEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29917323-1F2B-46F4-9B38-AD3E12F3CEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29917323-1F2B-46F4-9B38-AD3E12F3CEEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
